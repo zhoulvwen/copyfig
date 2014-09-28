@@ -1,4 +1,7 @@
 function [x,y]=copyfig(Figstr,Xticklabel,Yticklabel,plotstr)
+%
+% zhou lvwen: zhou.lv.wen@gmail.com
+
 FigM=imread(Figstr);
 FigM(:,:,1)=flipud(FigM(:,:,1));
 FigM(:,:,2)=flipud(FigM(:,:,2));
